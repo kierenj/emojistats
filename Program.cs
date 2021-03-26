@@ -6,11 +6,13 @@ using System.Text.Json;
 
 namespace emojistats
 {
-    class Program
+    partial class Program
     {
         static void Main(string[] args)
         {
-            var path = @"c:\users\kiere\onedrive\documents\slack exports\18-01-2021\";
+            //Main2(args);
+            //return;
+            var path = @"C:\Users\kiere\AppData\Local\Temp\Red River Slack export Feb 17 2021 - Mar 18 2021\";
 
             JsonDocument usersDoc;
             using (var fs = new FileStream(path + "users.json", FileMode.Open))
@@ -120,7 +122,34 @@ namespace emojistats
                 "yay-anime",
                 "yay-cat",
                 "yay-naruto",
-                "zoidberg-dance"
+                "zoidberg-dance",
+                "blob-dance",
+                "pug_dance",
+                "dancemoves",
+                "finn_dance",
+                "cat-dance",
+                "mario_luigi_dance",
+                "penguin_dance",
+                "rickastley",
+                "panic_aargh",
+                "neko-shake",
+                "meow_trampoline",
+                "turtle-dance",
+                "happygoat",
+                "weebdance1",
+                "weebdance2",
+                "weebdance3",
+                "weebdance4",
+                "weebdance5",
+                "weebdance6",
+                "weebdance7",
+                "anotherweebdance",
+                "bulba-dance",
+                "pikachu_dance",
+                "hamster_dance",
+                "squirtle_dance",
+                "minun",
+                "party-pikachu"
             };
 
             Console.WriteLine(allMojis.Count);
