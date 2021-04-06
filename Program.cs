@@ -6,7 +6,7 @@ using System.Text.Json;
 
 namespace emojistats
 {
-    class Program
+    partial class Program
     {
         static void Main(string[] args)
         {
@@ -125,7 +125,37 @@ namespace emojistats
                 "meow_dance",
                 "eevee_dance",
                 "pichu_dance",
-                "fry_dancing"
+                "fry_dancing",
+                "blob-dance",
+                "pug_dance",
+                "dancemoves",
+                "finn_dance",
+                "cat-dance",
+                "mario_luigi_dance",
+                "penguin_dance",
+                "rickastley",
+                "panic_aargh",
+                "neko-shake",
+                "meow_trampoline",
+                "dancing_dog",
+                "turtle-dance",
+                "happygoat",
+                "sausage-dance",
+                "dancing-potato",
+                "weebdance1",
+                "weebdance2",
+                "weebdance3",
+                "weebdance4",
+                "weebdance5",
+                "weebdance6",
+                "weebdance7",
+                "anotherweebdance",
+                "bulba-dance",
+                "pikachu_dance",
+                "hamster_dance",
+                "squirtle_dance",
+                "minun",
+                "party-pikachu"
             };
 
             Console.WriteLine(allMojis.Count);
