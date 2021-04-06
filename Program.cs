@@ -10,7 +10,7 @@ namespace emojistats
     {
         static void Main(string[] args)
         {
-            var path = @"c:\users\kiere\onedrive\documents\slack exports\18-01-2021\";
+            var path = @"C:\Users\KierenJohnstone\AppData\Local\Temp\Red River Slack export Feb 24 2021 - Mar 25 2021\";
 
             JsonDocument usersDoc;
             using (var fs = new FileStream(path + "users.json", FileMode.Open))
@@ -120,7 +120,12 @@ namespace emojistats
                 "yay-anime",
                 "yay-cat",
                 "yay-naruto",
-                "zoidberg-dance"
+                "zoidberg-dance",
+                "meow-dance",
+                "meow_dance",
+                "eevee_dance",
+                "pichu_dance",
+                "fry_dancing"
             };
 
             Console.WriteLine(allMojis.Count);
