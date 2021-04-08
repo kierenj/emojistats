@@ -155,7 +155,10 @@ namespace emojistats
                 "hamster_dance",
                 "squirtle_dance",
                 "minun",
-                "party-pikachu"
+                "party-pikachu",
+                "carlton1",
+                "carlton2",
+                "carlton3"
             };
 
             Console.WriteLine(allMojis.Count);
