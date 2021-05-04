@@ -10,7 +10,7 @@ namespace emojistats
     {
         static void Main(string[] args)
         {
-            var path = @"C:\Users\KIEREN~1\AppData\Local\Temp\Red River Slack export Mar 17 2021 - Apr 15 2021\";
+            var path = @"C:\Users\KIEREN~1\AppData\Local\Temp\Red River Slack export Mar 31 2021 - Apr 29 2021\";
 
             JsonDocument usersDoc;
             using (var fs = new FileStream(path + "users.json", FileMode.Open))
@@ -159,7 +159,8 @@ namespace emojistats
                 "carlton1",
                 "carlton2",
                 "carlton3",
-                "headbanging_parrot"
+                "headbanging_parrot",
+                "rare_shrek"
             };
 
             Console.WriteLine(allMojis.Count);
